@@ -62,9 +62,9 @@ $(document).ready(function(){
         //add the questions now
         $(stage).append(
             '<div class = "questionText">' + qBank[qNum][0] + '</div>'
-            + '<div id="1" class="option">' + q1 + '</div>'
-            + '<div id="2" class="option">' + q2 + '</div>'
-            + '<div id="3" class="option">' + q3 + '</div>'
+            + '<button id="1" class="option">' + q1 + '</div>'
+            + '<button id="2" class="option">' + q2 + '</div>'
+            + '<button id="3" class="option">' + q3 + '</div>'
         );
         
         $('.option').click(function(){

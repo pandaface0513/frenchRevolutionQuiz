@@ -10,6 +10,7 @@ html, body {
     height: 400px;
     position: relative;
     overflow: hidden;
+    color: #FFF;
 }
 
 #game1 {
@@ -34,23 +35,17 @@ html, body {
     color: #000;
 }
 
+
 .option {
     width: 400px;
     height: 30px;
     margin: 15px;
     font-size: 18px;
-    color: #FFF;
     padding: 2px;
     padding-left: 10px;
-    border: 5px solid grey;
     cursor: pointer;
-    background-color: blue;
 }
 
-.option:hover {
-    border: #FC0 solid 5px;
-    color: #FC0;
-}
 
 #topbar {
     height: 50px;
